@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>835067406096-ntiffo0h0iens8jqft5il625shdrccbm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.835067406096-ntiffo0h0iens8jqft5il625shdrccbm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCQ_afAg7KAGLWcug_taX-T74dVIerF6Is</string>
+	<key>GCM_SENDER_ID</key>
+	<string>835067406096</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.marmu.flutterApp007</string>
+	<key>PROJECT_ID</key>
+	<string>gallery-85878</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gallery-85878.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:835067406096:ios:ad1e07f7212da59850a795</string>
+	<key>DATABASE_URL</key>
+	<string>https://gallery-85878.firebaseio.com</string>
+</dict>
+</plist>
