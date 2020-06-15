@@ -18,6 +18,7 @@ class WeatherListViewBloc extends Bloc<WeatherListViewEvent, WeatherListState> {
       yield WeatherListLoadingState();
       final dynamic response =
           await _weatherListRepo.weatherList(event.searchKeyWord);
+      print('');
       if (response.containsKey('success') && !response['success']) {
         yield WeatherListFailureState();
       } else {
