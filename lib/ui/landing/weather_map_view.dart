@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:whetherapp/utils/app_theme.dart';
 
 class WeatherMapView extends StatefulWidget {
   final response;
@@ -30,7 +29,7 @@ class _WeatherMapViewState extends State<WeatherMapView> {
   @override
   Widget build(BuildContext context) {
     String _title =
-        '${widget.response['location']['name']}\t ${widget.response['current']['temperature']}'
+        '${widget.response['location']['name']}\t${widget.response['current']['temperature']}'
         '\'C';
     return Stack(
       children: <Widget>[
