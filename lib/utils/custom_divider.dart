@@ -13,8 +13,7 @@ class CustomDivider extends StatelessWidget {
       width: double.infinity,
       height: thickness * AppSizeConfig.heightMultiplier,
       margin: EdgeInsets.symmetric(
-        horizontal: margin * AppSizeConfig.heightMultiplier,
-      ),
+          horizontal: margin * AppSizeConfig.heightMultiplier),
       color: Colors.grey,
     );
   }

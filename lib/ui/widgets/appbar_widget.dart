@@ -8,11 +8,8 @@ class HomePageAppBar extends StatelessWidget {
   final Function onDrawerTap;
   final String url;
 
-  const HomePageAppBar({
-    @required this.name,
-    @required this.onDrawerTap,
-    @required this.url,
-  });
+  const HomePageAppBar(
+      {@required this.name, @required this.onDrawerTap, @required this.url});
 
   @override
   Widget build(BuildContext context) {

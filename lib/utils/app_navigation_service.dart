@@ -25,10 +25,8 @@ class AppNavigationService<T, U> {
 
   Future<T> pushNamedAndRemoveUntil(String routeName, {Object args}) async {
     return await navigationKey.currentState.pushNamedAndRemoveUntil<T>(
-      routeName,
-      (Route<dynamic> route) => false,
-      arguments: args,
-    );
+        routeName, (Route<dynamic> route) => false,
+        arguments: args);
   }
 
   Future<bool> maybePop([Object args]) async {

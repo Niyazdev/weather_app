@@ -33,10 +33,7 @@ class _SearchCityByNameState extends State<SearchCityByName> {
         borderRadius: BorderRadius.all(
           Radius.circular(8.0),
         ),
-        border: Border.all(
-          width: 0.5,
-          color: AppTheme.hintColor,
-        ),
+        border: Border.all(width: 0.5, color: AppTheme.hintColor),
       ),
       child: CustomSearchTextField(
         prefixIcon: Icons.search,

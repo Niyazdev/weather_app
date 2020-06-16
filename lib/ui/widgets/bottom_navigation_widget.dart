@@ -41,5 +41,5 @@ class BottomNavWidget extends StatelessWidget {
 
 final List<dynamic> bottomList = [
   {'name': 'Home', 'icon': Icons.home},
-  {'name': 'Map', 'icon': Icons.location_on},
+  {'name': 'Map', 'icon': Icons.location_on}
 ];

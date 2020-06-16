@@ -15,11 +15,10 @@ class WeatherMapRepo extends WeatherMapRepository {
     try {
       Map<String, dynamic> query = Map();
       query['query'] = searchKeyWord;
-      print('searchKeyWord = $searchKeyWord');
       final result =  await _apiRepository.getWeather(query);
-      print('result = $result');
       final jsonResponse = json.decode(result.toString());
       print('result = $jsonResponse');
+      print('searchKeyWord = $searchKeyWord');
       return jsonResponse;
     } catch (e) {
       print(e);

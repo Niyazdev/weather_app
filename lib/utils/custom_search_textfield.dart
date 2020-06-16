@@ -54,9 +54,9 @@ class CustomSearchTextField extends StatelessWidget {
             : null,
         hintText: labelText,
         hintStyle: Theme.of(context).textTheme.bodyText1.copyWith(
-          color: AppTheme.hintColor,
-          fontSize: 2 * AppSizeConfig.textMultiplier,
-        ),
+              color: AppTheme.hintColor,
+              fontSize: 2 * AppSizeConfig.textMultiplier,
+            ),
         //labelText: labelText,
         suffixIcon: suffixIcon != null
             ? IconButton(
@@ -78,9 +78,8 @@ class CustomSearchTextField extends StatelessWidget {
         contentPadding: EdgeInsets.zero,
       ),
       style: Theme.of(context).textTheme.bodyText1.copyWith(
-            color: AppTheme.secondaryColor,
-            fontSize: 2 * AppSizeConfig.textMultiplier,
-          ),
+          color: AppTheme.secondaryColor,
+          fontSize: 2 * AppSizeConfig.textMultiplier),
     );
   }
 }

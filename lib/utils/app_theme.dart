@@ -74,8 +74,7 @@ class AppTheme {
   );
 
   static final TextStyle _button = TextStyle(
-    color: secondaryColor,
-    fontSize: 2.0 * AppSizeConfig.textMultiplier,
-    fontWeight: FontWeight.w700,
-  );
+      color: secondaryColor,
+      fontSize: 2.0 * AppSizeConfig.textMultiplier,
+      fontWeight: FontWeight.w700);
 }
