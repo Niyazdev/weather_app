@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "835067406096",
+    "firebase_url": "https://gallery-85878.firebaseio.com",
+    "project_id": "gallery-85878",
+    "storage_bucket": "gallery-85878.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835067406096:android:e16cc440eaa469a850a795",
+        "android_client_info": {
+          "package_name": "com.marmu.flutter_app007"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835067406096-f89ds3dke50fb661dp67q7tqlnpvv3mj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTBwr__IsrI2VM93yVC6N-nF-_eD8HEHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835067406096-f89ds3dke50fb661dp67q7tqlnpvv3mj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

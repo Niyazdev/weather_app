@@ -37,7 +37,7 @@ class _WeatherMapViewState extends State<WeatherMapView> {
           myLocationEnabled: true,
           markers: _markers,
           compassEnabled: true,
-          mapType: MapType.hybrid,
+          mapType: MapType.normal,
           onMapCreated: (GoogleMapController controller) {
             _controller.complete(controller);
             setState(
